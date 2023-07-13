@@ -1,6 +1,18 @@
+"""
+функция выводит слово капсом
+"""
+
+
 def upper_word():
     word = input()
     return word.upper()
 
 
-print(upper_word())
+"""
+функция выводит слово с загловной буквы
+"""
+
+
+def tittle_word():
+    word = input()
+    return word.title()
